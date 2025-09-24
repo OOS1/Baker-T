@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About & Contact - Baker T Pastry Shop</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Baker T</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html" class="active">About & Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+          <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <h1 class="page-title">About Baker T</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Our Story - From Passion to Pastry</h2>
+                        <p>Baker T began as a dream in 2015 when our founder, Thomas Baker, decided to share his grandmother's secret recipes with the world. What started as a small home bakery has blossomed into the beloved neighborhood pastry shop you see today.</p>
+                        
+                        <h3>The Art of Baking</h3>
+                        <p>Every morning, our bakers arrive before dawn to begin the delicate process of creating our signature pastries. We use only the finest ingredients - French butter, Belgian chocolate, organic flour, and locally-sourced fruits. Each pastry is handcrafted with attention to detail and a commitment to excellence.</p>
+                        
+                        <h3>Our Philosophy</h3>
+                        <p>At Baker T, we believe that a great pastry can brighten anyone's day. Whether it's a morning croissant with coffee, a birthday cake for a special celebration, or simply a sweet treat to share with friends, we put love and care into everything we bake.</p>
+                        
+                        <h3>Community & Sustainability</h3>
+                        <p>We're proud to be part of this community. We source ingredients locally when possible, donate day-old pastries to local shelters, and use eco-friendly packaging. Our goal is to make the world a little sweeter, one pastry at a time.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/bakery1.png" alt="Warm and inviting interior of Baker T pastry shop">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+
+                <!-- Baker Section -->
+                <div class="chef-section">
+                    <div class="chef-image">
+                        <img src="images/Ayaka-Tanaka-Headshot.png" alt="Head Baker Ayaka Tanaka in bakery kitchen">
+                    </div>
+                    <div class="chef-info">
+                        <h3>Meet Our Head Baker</h3>
+                        <h4>Ayaka Tanaka</h4>
+                        <p>With over 15 years of experience and training from Le Cordon Bleu Paris, Ayaka brings authentic French pastry techniques to every creation. Her passion for baking started in her grandmother's kitchen and has evolved into an art form that delights customers daily.</p>
+                        <blockquote>"Baking is not just about following recipes - it's about creating moments of joy. Every pastry tells a story, and I want ours to be memorable."</blockquote>
+                    </div>
+                </div>
+
+                <!-- Team Section -->
+                <div class="team-section">
+                    <h3>Our Amazing Team</h3>
+                    <p>Behind every delicious pastry is a dedicated team of bakers, decorators, and baristas who share our passion for excellence. Together, we work to ensure that every visit to Baker T is special.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Visit Our Bakery</h3>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <p><strong>Location:</strong></p>
+                                <p>123 Bakery Lane</p>
+                                <p>Sweet City, SC 12345</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <p><strong>Phone:</strong></p>
+                                <p>(555) 123-BAKE</p>
+                                <p>(555) 123-2253</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <p><strong>Email:</strong></p>
+                                <p>hello@bakert.com</p>
+                                <p>orders@bakert.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🕐</span>
+                            <div>
+                                <p><strong>Bakery Hours:</strong></p>
+                                <p>Mon-Fri: 7:00 AM - 7:00 PM</p>
+                                <p>Sat-Sun: 8:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🎂</span>
+                            <div>
+                                <p><strong>Custom Orders:</strong></p>
+                                <p>48 hours advance notice</p>
+                                <p>for special occasions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="orderForm">
+                        <h3>Place a Custom Order</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required aria-label="First Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required aria-label="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required aria-label="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required aria-label="Phone Number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="pickupDate">Pickup Date</label>
+                                <input type="date" id="pickupDate" name="pickupDate" required aria-label="Pickup Date">
+                            </div>
+                            <div class="form-group">
+                                <label for="pickupTime">Pickup Time</label>
+                                <select id="pickupTime" name="pickupTime" required aria-label="Pickup Time">
+                                    <option value="">Select a time</option>
+                                    <option value="08:00">8:00 AM</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="orderType">Order Type</label>
+                            <select id="orderType" name="orderType" required aria-label="Order Type">
+                                <option value="">Select order type</option>
+                                <option value="birthday">Birthday Cake</option>
+                                <option value="wedding">Wedding Cake</option>
+                                <option value="custom">Custom Cake Design</option>
+                                <option value="pastries">Pastry Platter</option>
+                                <option value="bread">Bread Order</option>
+                                <option value="catering">Catering Service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="quantity">Number of Servings</label>
+                            <input type="number" id="quantity" name="quantity" min="1" max="500" required aria-label="Number of Servings">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Order Details & Special Instructions</label>
+                            <textarea id="message" name="message" rows="4" required aria-label="Order Details"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit Order Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Baker T Pastry Shop. Baked with love daily.</p>
+        <p>Follow us @BakerTShop for daily specials and behind-the-scenes content</p>
+    </footer>
+</body>
+</html>
